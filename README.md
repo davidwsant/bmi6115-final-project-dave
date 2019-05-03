@@ -14,13 +14,14 @@ things:
 may still have some identifiers, but they can be obtained directly from the
 MIMIC-III providers.
 You can find the information about the MIMIC-III dataset in this publication:
-Johnson et al., [“MIMIC-III, a freely accessible critical care database,”
-Scientific Data 3:160035](https://www.ncbi.nlm.nih.gov/pubmed/27219127)
+[Johnson et al., “MIMIC-III, a freely accessible critical care database,”
+Scientific Data 3:160035](https://www.ncbi.nlm.nih.gov/pubmed/27219127).
 
 This was originally run in python notebooks, but for simplicity I have converted
 them to python scripts that can be run from the command line. To do this I used
 this function: 
-~jupyter nbconvert --to script 'NLP_Extract_A1c_Values_Training.ipynb'~
+
+`jupyter nbconvert --to script 'NLP_Extract_A1c_Values_Training.ipynb'`
 
 Both of these systems use PyConText to perform this function. PyConText can be
 found on it's
@@ -28,7 +29,7 @@ found on it's
 page. The publication was put forth by Wendy and Brian Chapman ([Chapman BE, Lee
 S, Kang KP, Chapman WW 2011. Document-level classification of CT pulmonary
 angiography reports based on an extension of the ConText algorithm. J Biomed
-Inform 44(5):728-737.](https://www.ncbi.nlm.nih.gov/pubmed/21459155) 
+Inform 44(5):728-737.](https://www.ncbi.nlm.nih.gov/pubmed/21459155)) 
 
 If you would like to repeat the analysis, you can use the python scripts in the
 "Document Selection Scripts" folder, but you will have to modify the scripts to
