@@ -1,0 +1,71 @@
+Comments: ''
+Direction: ''
+Lex: DIABETES_OR_DIABETIC
+Regex: diabet\w+(\smellitus)?
+Type: MENTION_OF_DIABETES
+---
+Comments: ''
+Direction: ''
+Lex: DM
+Regex: ''
+Type: MENTION_OF_DIABETES
+---
+Comments: ''
+Direction: ''
+Lex: DM1
+Regex: ''
+Type: DIABETES_Type_1
+---
+Comments: ''
+Direction: ''
+Lex: DMI
+Regex: ''
+Type: DIABETES_Type_1
+---
+Comments: ''
+Direction: ''
+Lex: DM2
+Regex: ''
+Type: DIABETES_Type_2
+---
+Comments: ''
+Direction: ''
+Lex: DMII
+Regex: ''
+Type: DIABETES_Type_2
+---
+Comments: ''
+Direction: ''
+Lex: GDM
+Regex: ''
+Type: DIABETES_Gestational
+---
+Comments: ''
+Direction: ''
+Lex: MELLITUS
+Regex: ''
+Type: MENTION_OF_DIABETES
+---
+Comments: ''
+Direction: ''
+Lex: T2DM
+Regex: ''
+Type: DIABETES_Type_2
+---
+Comments: ''
+Direction: ''
+Lex: T1DM
+Regex: ''
+Type: DIABETES_Type_1
+---
+Comments: ''
+Direction: ''
+Lex: NIDDM
+Regex: ''
+Type: DIABETES_Type_2
+---
+Comments: ''
+Direction: ''
+Lex: IDDM
+Regex: ''
+Type: DIABETES_Type_1

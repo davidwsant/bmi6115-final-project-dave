@@ -1,0 +1,191 @@
+Comments: ''
+Direction: bidirectional
+Lex: DIABETES_IN_OTHER
+Regex: (\bmother\b|\bmaternal\b|\bmom\b|\bfather\b|\bdad\b|\bgrandfather\b|\bgrandpa\b|\bgrandmother\b|\bgrandma\b|\baunt\b|\buncle\b|\bsister\b|\bcousin\b|\bbrother\b|\bparents?)
+Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: maternal
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: mom
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: father
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: dad
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: grandfather
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: grandpa
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: grandmother
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: grandma
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: aunt
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: uncle
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: sister
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: brother
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: cousin
+# Regex: ''
+# Type: DIABETES_IN_OTHER
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: Parent
+# Regex: \bparents?
+# Type: DIABETES_IN_OTHER
+---
+Comments: ''
+Direction: bidirectional
+Lex: DIABETES_TYPE_1
+Regex: (\binsulin(\sdependent)?|type\s?_?:?1|type\s?_?:?i)
+Type: DIABETES_Type_1
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: TYPE 1
+# Regex: type\s?_?:?1
+# Type: DIABETES_Type_1
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: TYPE I
+# Regex: type\s?_?:?i
+# Type: DIABETES_Type_1
+---
+Comments: ''
+Direction: bidirectional
+Lex: DIABETES_TYPE_2
+Regex: (type\s?_?:?2|type\s?_?:?ii|noninsulin)
+Type: DIABETES_Type_2
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: type\s?_?:?ii
+# Regex: ''
+# Type: DIABETES_Type_2
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: IDDM
+# Regex: ''
+# Type: DIABETES_Type_1
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: NIDDM
+# Regex: ''
+# Type: DIABETES_Type_2
+---
+Comments: ''
+Direction: bidirectional
+Lex: DIABETES_GESTATIONAL
+Regex: (gestatio\w+|\bpregnan\w+)
+Type: DIABETES_Gestational
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: PREGNANCY
+# Regex: pregnan\w+
+# Type: DIABETES_Gestational
+---
+Comments: ''
+Direction: bidirectional
+Lex: INSIPIDUS
+Regex: ''
+Type: DIABETES_INSIPIDUS
+---
+Comments: ''
+Direction: bidirectional
+Lex: HYPOTHETICAL_DIABETES
+Regex: (\bbecom\w+|\bfuture\b|\brisk\b|suspec\w+|\blikely\b|possible)
+Type: HYPOTHETICAL_DIABETES
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: FUTURE
+# Regex: ''
+# Type: HYPOTHETICAL_DIABETES
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: RISK
+# Regex: ''
+# Type: HYPOTHETICAL_DIABETES
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: SUSPECTED
+# Regex: suspec\w+
+# Type: HYPOTHETICAL_DIABETES
+# ---
+# Comments: ''
+# Direction: bidirectional
+# Lex: LIKELY
+# Regex: ''
+# Type: HYPOTHETICAL_DIABETES
+---
+Comments: ''
+Direction: bidirectional
+Lex: DENIES
+Regex: (\bdeny\b|\bdenies\b|\bdenying\b|\bdenied\b)
+Type: DIABETES_NEGATED
+---
+Comments: ''
+Direction: bidirectional
+Lex: NOT
+Regex: (\bno\b|\bnor\b|\bnot\b|\bnegative\b|\bnever\b|\bwithout\b|\bwith\sno\b|\bfree\b)
+Type: DIABETES_NEGATED

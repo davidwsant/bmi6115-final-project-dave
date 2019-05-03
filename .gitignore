@@ -1,0 +1,5 @@
+.DS*
+Text_Files/*
+~*
+.ipynb_checkpoints/
+

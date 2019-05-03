@@ -1,0 +1,29 @@
+Comments: ''
+Direction: ''
+Lex: A1C_COLON_OR_SPACE
+Regex: a1c:?;?\s?\d{1,2}\.?\d{0,1}
+Type: HbA1c_Value
+---
+Comments: ''
+Direction: ''
+Lex: A1C_IS_OR_WAS
+Regex: a1c\s(is)?(was)?\s\d{1,2}\.?\d{0,1}
+Type: HbA1c_Value
+---
+Comments: ''
+Direction: ''
+Lex: A1C_IN_OF
+Regex: a1c\s(in\s)?of\s\d{1,2}\.?\d{0,1}
+Type: HbA1c_Value
+---
+Comments: ''
+Direction: ''
+Lex: A1C_EQUALS_OR_SEMICOLON
+Regex: a1c\s?;?=?\s?\d{1,2}\.?\d{0,1}
+Type: HbA1c_Value
+---
+Comments: ''
+Direction: ''
+Lex: A1C_DASH
+Regex: a1c-\s?\d{1,2}\.?\d{0,1}
+Type: HbA1c_Value
